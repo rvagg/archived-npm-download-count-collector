@@ -1,0 +1,26 @@
+{
+  "name": "npm-download-count-collector",
+  "version": "1.0.0",
+  "description": "Collect npm download stats for all packages",
+  "main": "npm-download-count-collector.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rvagg/npm-download-count-collector.git"
+  },
+  "scripts": {
+    "test": "eslint *.js && node test.js"
+  },
+  "author": "Rod <rod@vagg.org> (http://r.va.gg/)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "JSONStream": "~1.1.3",
+    "async": "~2.0.0",
+    "hyperquest": "~2.0.0",
+    "moment": "~2.14.1",
+    "npm-download-counts": "~0.1.2",
+    "through2": "~2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "~3.1.0"
+  }
+}
